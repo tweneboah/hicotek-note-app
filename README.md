@@ -66,3 +66,68 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+
+
+```js
+
+ <div class="columns">
+
+                <div class="column">
+
+                    <div class="columns is-mobile">
+
+                        <div class="column">
+                            <p class="bd-notification is-danger"></p>
+                        </div>
+
+                        <div class="column is-half">
+                            <div class="field">
+
+                                <div class="control ">
+                                    <input
+                                        class="input"
+                                        placeholder="Title"
+                                        name='title'
+                                        type='text'
+                                        value={note.title}
+                                        onChange={handleInputChange}
+
+                                    />
+                                </div>
+
+                                <div class="field">
+
+                                    <div class="control has-padding-top-30">
+                                        <textarea
+                                            class="textarea "
+                                            name='description'
+                                            type='text'
+                                            placeholder='Description'
+                                            value={note.description}
+                                            onChange={handleInputChange}
+                                        >
+
+                                        </textarea>
+                                    </div>
+                                    <div className='has-padding-top-20'>
+                                        <button ype='submit' onClick={handleSubmit} class="button is-info is-outlined">Add Note</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <p class="bd-notification is-danger"></p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+```
